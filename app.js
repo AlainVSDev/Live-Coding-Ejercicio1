@@ -10,13 +10,13 @@
    - `bigWords('bocina', myArray);`
    - Output - `['insecto', 'bootcamp', 'escritorio']` */
 
- /*  function palabrasGrandes(str, arr) {
+   function palabrasGrandes(str, arr) {
 
     return arr.filter(palabra => palabra.length > str.length);
 
    }
    const myArray = ['insecto', 'bootcamp', 'mangos', 'reptil', 'mosca', 'escritorio'];
-   console.log(palabrasGrandes('bocina', myArray)); // */
+   console.log(palabrasGrandes('bocina', myArray)); 
 
 
    /* 2.- Construye una función que reciba por parámetros un array de strings y lo imprima dentro de la lista (<ul></ul>) en el index.html. La función debe mostrar la lista en el HTML manipulando el DOM, cada string del arreglo debe imprimirse en un elemento **<li></li>**. El array que se recibe por parámetros debe ser un array resultante de utilizar la función anterior.
@@ -41,7 +41,7 @@
                     ul.appendChild(li);
                 });
                 document.body.appendChild(ul);
-                console.log(body);
+                console.log(ul);
             }
             
             const myArray2 = ['insecto', 'bootcamp', 'escritorio'];
